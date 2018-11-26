@@ -19,3 +19,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 //登録
 Route::post('register', 'Api\RegisterController@register')->name('api.register');
+
+//パスワードリセット
+Route::post('password/email', 'Api\ForgotPasswordController@sendResetLinkEmail')->name('api.password.email');

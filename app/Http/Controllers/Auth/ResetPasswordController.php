@@ -25,7 +25,8 @@ class ResetPasswordController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    //ログインしてしまうので、とりあえず/へ（浦でログインしてるので、実際は実装を変更する）
+    protected $redirectTo = '/';
 
     /**
      * Create a new controller instance.
