@@ -22,3 +22,6 @@ Route::post('register', 'Api\RegisterController@register')->name('api.register')
 
 //パスワードリセット
 Route::post('password/email', 'Api\ForgotPasswordController@sendResetLinkEmail')->name('api.password.email');
+
+//メールの存在確認
+Route::post('ismailexist', 'UserController@isMailExist')->name('api.ismailexist');
