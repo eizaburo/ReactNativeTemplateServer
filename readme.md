@@ -1,8 +1,8 @@
-## ReactNativeとLaravelの連携（サーバ側）
+## ReactNativeTemplateClientと連携するLaravelの参考実装
 
-[ReactNativeで実装したクライアント](https://github.com/eizaburo/rlc_client_alpha)と連携します。
+[ReactNativeTemplateClient](https://github.com/eizaburo/ReactNativeTemplateClient/tree/withLaravel)と連携します。
 
-* とにかく簡易実装してるだけ。
+* とにかくクライアント側で必要な機能を簡易実装してるだけで、実運用は全く想定していません。
 
 ## セットアップ
 
